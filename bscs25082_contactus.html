@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>contact page</title>
+    <script src="bscs25082_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="bscs25082_lab04.css">
+        
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="bscs25082_homepage.html">HOME</a>
+        <a href="bscs25082_products.html">PRODUCTS</a>
+        <a href="bscs25082_contactus.html">CONTACT</a>
+    </div>
+    <h1>Contact Page</h1>
+    <form onsubmit="return validation()">
+        <input type="text" id="name" placeholder="Your Name"><br><br>
+        <input type="text" id="email" placeholder="Your Email"><br><br>
+        <textarea id="message" placeholder="Your Message"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="contact info">
+        <h2>Contact Us</h2>
+        <div class="contact-info">Cell: +92 310 4351874</div>
+        <div class="contact-info">Email: abdulkareem518g@gmail.com</div>
+        <div class="contact-info">Location: Lahore, Pakistan</div>
+
+        <div class="social-links">
+            <a href="https://facebook.com/abdulkareem58_/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/abdulkareem58_/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYn5JGmP7QniERor6LeriDO82uBuzEorSa-g&s" alt="Instagram">
+            </a>
+            <a href="https://linkedin.com/in/ABDULKAREEM/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+    <div class="AIChatbot">
+    <div id="chat" class="AIchat"></div>
+    <div class="input">
+        <div>AI chat bot</div>
+      <input type="text" id="userinput" placeholder="Type a message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+</body>
+</html>

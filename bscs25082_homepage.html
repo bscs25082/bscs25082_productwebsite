@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My home page</title>
+<script src="bscs25082_script.js"></script>
+<link rel="stylesheet" type="text/css" href="bscs25082_lab04.css">
+</head>
+
+<body>
+    <script>
+        showWelcome();
+    </script>
+    <div class="navbar">
+        <a href="bscs25082_homepage.html">HOME</a>
+        <a href="bscs25082_products.html">PRODUCTS</a>
+        <a href="bscs25082_contactus.html">CONTACT US</a>
+    </div>
+    <div class="home"> </div>
+        <h1>Welcome to our website</h1>
+        <a href="bscs25082_homepage.html">about us</a>
+        <h2>Learn more about our mission and values</h2>
+        <p>we are giving you best quality products and services.</p>
+    <div class="about-us">
+        <img id="id1" src="bscs25082_image2.jpg" width="200" height="200" alt="About Us">
+        <h1>know more about us</h1>
+    </div>
+    <div class="products"> </div>
+        <img id="id2" src="bscs25082_image1.jpg"  width="200" height="200" alt="Products Image">
+        <h1>check products</h1>
+        <a href="bscs25082_products.html">our products</a>
+    </div>
+    <div class="contact us"> </div>
+        <img id="id3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PmwXg2uFFJll99mtnm75mfNBeXj3GAWcow&s" width="200" height="200" alt="Contact Us">
+        <h1>contact us</h1>
+        <a href="bscs25082_contactus.html">our contact</a>
+    </div>
+    <footer>
+        <p> Cell: +92 310 4351874 </p>
+        <p> Email: abdulkareem518g@gmail.com </p>
+        <p> Location: Lahore, Pakistan </p>
+    </footer>
+    <footer>
+        <span id="year"></span>
+    </footer>
+  <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById("year").textContent = currentYear;
+  </script>
+</body>
+</html>
